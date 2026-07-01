@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6v0014/v1
+canonical_location: https://kanripo.org/bkk/KR6v0014/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大方廣華嚴十惡品經
+  identifiers:
+    alt_id:
+    - W01n0013
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW01/ZW01n0013.xml
+    old_id: ZW01n0013
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0014_000.yaml, hash: 'sha256:86299c40f2faccf81d00954b831437254bb4587451652f8382c81f925b5f3e8f'}
+  - {seq: 1, filename: KR6v0014_001.yaml, hash: 'sha256:1422bac452e41e6b31ffe4b94e7c9657d07403a4449b06638038c786a9d4014b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0014_000.markers.yaml, hash: 'sha256:31051a4a80f06193b50191bf4e1b6913173b707213f5be8e71c514f545492365'}
+  - {seq: 1, role: markers, filename: assets/KR6v0014_001.markers.yaml, hash: 'sha256:bf1f3bfb414f2840c58192f70cfec8faebb93eedd2399e77a7d66cf070f6ee81'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0014_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0014_ZW_000-mulu-2
+    span:
+    - front
+    - 346
+    - 346
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0014_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 2456
+  label: 大方廣華嚴十惡品經
+  type: juan
+  level: 1
+hash: sha256:f8270cfff0682833a27b1574f0818545df245b2c003031c51697114c805229ad
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: ZW
